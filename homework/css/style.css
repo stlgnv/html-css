@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+}
+
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+.bg_picture {
+    background-image: url(../images/bg_picture.png);
+    background-repeat: no-repeat;
+}
+
+.title {
+    padding-top: 220px;
+    margin-bottom: 135px;
+    text-align: center;
+    color: rgb(81, 80, 118);
+    font-size: 70px;
+    line-height: 78px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    gap: 45px;
+    justify-content: center;
+}
+
+.card {
+    background-color: rgba(81, 80, 118, 0.1);
+    padding: 25px;
+    list-style: none;
+}
+
+.card_image {
+    display: block;
+    width: 290px;
+    height: 245px;
+}
+
+.category_product {
+    font-size: 12px;
+    line-height: 24px;
+    color: rgb(165, 163, 185);
+    text-transform: uppercase;
+    display: block;
+    margin-top: 30px;
+}
+
+.card_title {
+    margin-top: 5px;
+    color: rgb(81, 80, 118);
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+}
+
+.title_list {
+    margin-top: 15px;
+    color: rgb(81, 80, 118);
+    display: inline-block; 
+}
+
+.card_text, 
+.composition_item {
+    margin-top: 5px;
+    color: rgb(81, 80, 118); 
+}
+
+.composition_list {
+    margin-left: 16px;
+}
+
+.price {
+    display: flex;
+    font-size: 20px;
+    line-height: 24px;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.price b {
+    font-weight: 700;
+}
+
+.card_text {
+    max-width: 290px;
+}
